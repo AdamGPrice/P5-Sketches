@@ -1,2 +1,2 @@
 # P5-Sketches
-A repository for random JavaScript code
+A repository for random JavaScript code.
