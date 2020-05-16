@@ -1,10 +1,10 @@
 class World {
     constructor() {
-        createCanvas(1200, 800);
-        this.population = new Population(40, 0.1);
+        createCanvas(800, 800);
+        this.population = new Population(80, 0.1);
         this.generation = 0;
         this.training = true;
-        this.foodCount = 80;
+        this.foodCount = 100;
         this.poisonCount = 200;
 
         this.placeFoodPoison();
@@ -63,7 +63,7 @@ class World {
     displayInfo() {
         noStroke();
         fill(255);
-        textSize(20);
-        text("Generation: " + this.generation, 10, 20);
+        textSize(40);
+        text("Generation: " + this.generation, 10, 40);
     }
 }
